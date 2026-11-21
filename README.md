@@ -14,13 +14,13 @@ An Excel/VBA application for a small warehouse that buys and uses **one material
 
 ## Screenshots
 
-| Dashboard | Transaction form |
+| Dashboard | Transaction User Form |
 |---|---|
-| ![Dashboard](demo/Dashboard.png) | ![Form](demo/TransactionForm.png) |
+| ![Dashboard](demo/Dashboard.png) | ![Form](demo/Transaction%20User%20Form.png) |
 
 | Transaction history | Generated report |
 |---|---|
-| ![History](demo/TransactionHistory.png) | ![Report](demo/GeneratedReport.png) |
+| ![History](demo/Transaction%20History.png) | ![Report](demo/Generated%20Report.png) |
 
 ## How the FILO allocation works
 
