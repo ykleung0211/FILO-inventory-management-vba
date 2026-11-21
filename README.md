@@ -42,16 +42,6 @@ In the code, the batches with stock are read into arrays (row, remaining quantit
 - **Error handling everywhere.** Each entry point has an `On Error GoTo` handler with a user-friendly message.
 - **Small modules.** Validation, FILO calculation, dashboard updates, formatting, navigation and reporting are separate procedures. Shared constants (colours, column letters, limits) live in one module.
 
-## Testing
-
-Checked by hand, including a "bad user" pass:
-
-- Status boundaries: exactly the minimum, minimum + 1, exactly 2x the minimum, 2x + 1, and zero.
-- FILO cases: a Use inside one batch, across several batches, exactly one batch, and all remaining stock.
-- Bad input: blank, zero, negative, decimal, text, percentages, very large numbers, and pasted text.
-- Tampering: editing dashboard cells, deleting history rows, and breaking the settings while the form is open.
-- Reset in different states, and report generation on an empty system.
-
 ## Project layout
 
 - `demo/` screenshots used in this README
