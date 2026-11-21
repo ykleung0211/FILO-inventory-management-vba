@@ -54,9 +54,9 @@ Checked by hand, including a "bad user" pass:
 
 ## Project layout
 
+- `demo/` screenshots used in this README
 - `src/` exported VBA code (standard modules, UserForm, sheet modules and ThisWorkbook)
 - `workbook/` the macro-enabled workbook (`.xlsm`)
-- `demo/` screenshots used in this README
 
 ## How to run
 
